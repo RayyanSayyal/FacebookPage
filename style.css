@@ -1,0 +1,155 @@
+input[type=search]{
+    height: 30px;
+}
+.collapse li :hover{
+    background-color: #00000010;
+    border-radius: 9px;
+   
+    
+    
+}
+
+body{
+    /* min-height: 100vh; */
+    background: #ddd;
+}
+::-webkit-scrollbar{
+    width: 5px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #1a191959;
+    border-radius: 10px;
+
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height:  100%;
+    background:  #d3cdcd69;
+    display: flex;
+    flex-direction: column;
+    margin-top: 67px;
+    /* padding: 20px 5px 0 20px; */
+    z-index: 100;
+}
+
+.scrollbox{
+    overflow: auto;
+    padding-right: 10px;
+    visibility: hidden;
+}
+.scrollbox-inner, .scrollbox:hover{
+    visibility: visible;
+}
+
+.scrollbox-inner{
+    font-size: 20px;
+    color: rgb(63, 54, 49);
+    
+}
+#side-nav{
+    background-color: #f0ecec;
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.2s;
+}
+hr.h-color{
+    background: #000000;
+
+}
+.sidebar li:hover{
+    background: #e6dede;
+    border-radius: 8px;
+}
+.sidebar li:hover a:hover{
+    color: #000000;
+}
+.sidebar li a{
+    color: #f50000;
+}
+body{
+    /* min-height: 100vh; */
+    background: #ddd;
+}
+::-webkit-scrollbar{
+    width: 5px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #1a191959;
+    border-radius: 10px;
+
+}
+.sidebar-1{
+    position: fixed;
+    top: 0;
+    left: 995px;
+    width: 370px;
+    height:  100%;
+    background:  #d3cdcd69;
+    display: flex;
+    flex-direction: column;
+    margin-top: 67px;
+    /* padding: 20px 5px 0 20px; */
+    z-index: 100;
+}
+
+.scrollbox{
+    overflow: auto;
+    padding-right: 10px;
+    visibility: hidden;
+}
+.scrollbox-inner, .scrollbox:hover{
+    visibility: visible;
+}
+
+.scrollbox-inner{
+    font-size: 20px;
+    color: rgb(63, 54, 49);
+    
+}
+#side-nav{
+    background-color: #f0ecec;
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.2s;
+}
+hr.h-color{
+    background: #000000;
+
+}
+.sidebar-1 li:hover{
+    background-color: #c5afaf59;
+    border-radius: 8px;
+}
+.sidebar-1 li:hover a:hover{
+    color: #000000;
+}
+.sidebar li a{
+    color: #000000;
+}
+.img-1 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+
+}
+.abc{
+    
+    padding-left: 420px;
+    padding-top: 10px;
+      
+}
+.sidebar-1 a{
+    color: #000000;
+    font-size: px;
+}
+.abcd{
+   margin-left: 460px;
+}
+.abcc{
+    margin-left: 460px;
+}
